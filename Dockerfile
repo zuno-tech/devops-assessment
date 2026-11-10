@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-ARG GOVER=1.27.1
+ARG GOVER=1.27.3
 ARG TARGETARCH
 
 RUN apt update && apt install curl -y
